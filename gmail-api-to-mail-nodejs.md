@@ -4,9 +4,9 @@
 npm install googleapis google-auth-library
 ```
 
-Step 2: Create `sendEmail.js` file
+## Step 2: Create `sendEmail.js` file
 
-Step 3: Import necessary modules
+## Step 3: Import necessary modules
 
 ```javascript
 const { google } = require('googleapis');
@@ -14,7 +14,7 @@ const { authenticate } = require('@google-cloud/local-auth');
 const fs = require('fs');
 ```
 
-Step 4: Define the `sendEmail` function
+## Step 4: Define the `sendEmail` function
 
 ```javascript
 async function sendEmail() {
@@ -58,7 +58,7 @@ async function sendEmail() {
 }
 ```
 
-Step 5: Call the `sendEmail` function
+## Step 5: Call the `sendEmail` function
 
 ```javascript
 sendEmail();

@@ -1,6 +1,5 @@
-Sure! Here's the step-by-step guide in Markdown format:
+## Step 1: Install required packages
 
-Step 1: Install required packages
 ```bash
 npm install googleapis google-auth-library
 ```
